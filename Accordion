@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+.accordion{background: #f7f8fa;padding:100px 4vw;margin:0 auto;max-width:70%;}
+.accordion .item {
+  border-bottom: 1px solid hsla(0, 0%, 46.7%, .1);
+    cursor:pointer;}
+
+.accordion .item .acc-title {
+  display: block;
+  cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: #222d39;
+    line-height: 1.5em;
+	font-family: inter, sans-serif;
+}
+.inner p{font-family: inter, sans-serif;font-size:17px;color:#636363;}
+.accordion .item .acc-content {
+  margin: 0;
+  overflow: hidden;
+  transition: all .2s;
+  -moz-transition: all .2s;
+  /* Firefox 4 */
+  -webkit-transition: all .2s;
+  /* Safari and Chrome */
+  -o-transition: all .2s;
+  /* Opera */
+    position:relative;
+    top:-15px;
+
+}
+.dropdown-icons {
+    width: 18px;
+    margin-top: 5px;
+    height: 18px;
+    transition: transform .5s;
+    display: inline-block;
+	
+}
+
+.right {
+    float: right;position:relative;
+	bottom:30px;
+}
+
+.acc-heading{padding:30px 0px;}
+
+.accordion .item .acc-heading.active .dropdown-icons {
+    transform: rotate(
+      180deg);}
+
+.dropdown-icons svg {
+    fill: #636363;}	 
+</style>
+</head>
+<body>
+<div class="accordion">
+  <div class="item">
+    <div ref="#acc1" class="acc-heading"><span class="acc-title">What can I do with Pixpa?</span><span class="dropdown-icons right">
+                  <svg xmlns="https://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 30" x="0px" y="0px"><path d="M11.95,17.28h0a.75.75,0,0,1-.53-.22l-8.95-9A.75.75,0,1,1,3.53,7L12,15.46l8.52-8.52A.75.75,0,0,1,21.53,8l-9.05,9.05A.75.75,0,0,1,11.95,17.28Z"></path></svg>
+                </span></div>
+                  
+    <section id="acc1" class="acc-content">
+      <div class="inner">
+      <p>Pixpa is an all-in-one platform that lets you create your professional website complete with an online store, blog and client galleries without any coding knowledge. Pixpa's all-inclusive plans enable you to manage your entire online presence in one place easily and affordably.</p>
+	  <p>Whether you want to showcase your portfolio, create a business website, sell your products, publish a blog or manage your clients - you can do this and much more with Pixpa. To see everything that you can do with Pixpa, visit the <a href="https://www.pixpa.com/features"> full features list page.</a></p>
+	  <p>Visit the <a href="https://help.pixpa.com/" target="_blank" rel="noopener">Help Centre</a> to access guides and help articles on Pixpa.<br> To get started, <a href="https://studio.pixpa.com/signup">sign up for the free 15-days trial.</a></p>
+      </div>
+    </section>
+  </div>
+  
+  <div class="item">
+    <div ref="#acc2" class="acc-heading"><span class="acc-title">Is it easy to create a website on Pixpa?</span><span class="dropdown-icons right">
+                  <svg xmlns="https://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 30" x="0px" y="0px"><path d="M11.95,17.28h0a.75.75,0,0,1-.53-.22l-8.95-9A.75.75,0,1,1,3.53,7L12,15.46l8.52-8.52A.75.75,0,0,1,21.53,8l-9.05,9.05A.75.75,0,0,1,11.95,17.28Z"></path></svg>
+                </span></div>
+                  
+    <section id="acc2" class="acc-content">
+      <div class="inner">
+      <p>Pixpa simplifies the process of creating a professional website with its drag-and-drop website builder that you can use without any coding knowledge.</p>
+	  <p>Start by choosing the template that best fits your needs and customize it easily to make it look exactly as you want. Add content to your website, connect with your custom domain and social profiles, and optimize it for search engines - all through a simple and seamless control panel to manage all aspects of your website.</p>
+      </div>
+    </section>
+  </div>
+
+  <div class="item">
+    <div ref="#acc3" class="acc-heading"><span class="acc-title">Do I need to know coding to build my website?</span><span class="dropdown-icons right">
+                  <svg xmlns="https://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 30" x="0px" y="0px"><path d="M11.95,17.28h0a.75.75,0,0,1-.53-.22l-8.95-9A.75.75,0,1,1,3.53,7L12,15.46l8.52-8.52A.75.75,0,0,1,21.53,8l-9.05,9.05A.75.75,0,0,1,11.95,17.28Z"></path></svg>
+                </span></div>
+                  
+    <section id="acc3" class="acc-content">
+      <div class="inner">
+      <p>You do not need to know how to code at all to build your professional website on Pixpa. Our drag-and-drop website builder empowers you to create and customize your website exactly the way you want. Advanced users can customize their website even more with custom CSS overrides and HTML editing.</p>
+      </div>
+    </section>
+  </div>
+  
+  <div class="item">
+    <div ref="#acc4" class="acc-heading"><span class="acc-title">Is Pixpa the right platform for me?</span><span class="dropdown-icons right">
+                  <svg xmlns="https://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 30" x="0px" y="0px"><path d="M11.95,17.28h0a.75.75,0,0,1-.53-.22l-8.95-9A.75.75,0,1,1,3.53,7L12,15.46l8.52-8.52A.75.75,0,0,1,21.53,8l-9.05,9.05A.75.75,0,0,1,11.95,17.28Z"></path></svg>
+                </span></div>
+                  
+    <section id="acc4" class="acc-content">
+      <div class="inner">
+      <p>If you are a creator searching for an all-in-one platform to manage your whole web presence from one location, then Pixpa is the place for you. Whether you want to showcase your portfolio, start your business website, set up your online store, or publish a blog, you can do it all seamlessly with Pixpa.</p>
+	  <p>To see everything that you can do with Pixpa, visit the <a href="https://www.pixpa.com/features">full features list page.</a></p>
+      </div>
+    </section>
+  </div>
+  
+  <div class="item">
+    <div ref="#acc5" class="acc-heading"><span class="acc-title">What is your 30-day money back guarantee?</span><span class="dropdown-icons right">
+                  <svg xmlns="https://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 30" x="0px" y="0px"><path d="M11.95,17.28h0a.75.75,0,0,1-.53-.22l-8.95-9A.75.75,0,1,1,3.53,7L12,15.46l8.52-8.52A.75.75,0,0,1,21.53,8l-9.05,9.05A.75.75,0,0,1,11.95,17.28Z"></path></svg>
+                </span></div>
+                  
+    <section id="acc5" class="acc-content">
+      <div class="inner">
+      <p>We offer a 30-day money back guarantee on all new subscriptions. If for any reason, you feel that Pixpa is not a good fit for you, you can request a full refund within 30 days of starting your subscription</p>
+	  
+      </div>
+    </section>
+  </div>
+  
+  <div class="item">
+    <div ref="#acc6" class="acc-heading"><span class="acc-title">Can I connect a custom domain name with my Pixpa website?</span><span class="dropdown-icons right">
+                  <svg xmlns="https://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 30" x="0px" y="0px"><path d="M11.95,17.28h0a.75.75,0,0,1-.53-.22l-8.95-9A.75.75,0,1,1,3.53,7L12,15.46l8.52-8.52A.75.75,0,0,1,21.53,8l-9.05,9.05A.75.75,0,0,1,11.95,17.28Z"></path></svg>
+                </span></div>
+                  
+    <section id="acc6" class="acc-content">
+      <div class="inner">
+      <p>Yes, if you already have a custom domain, you can connect it to your Pixpa website. We also offer a free domain name for the first year with all annual plan subscriptions.</p>
+      </div>
+    </section>
+  </div>
+  
+  <div class="item">
+    <div ref="#acc7" class="acc-heading"><span class="acc-title">Are Pixpa websites mobile-friendly?</span><span class="dropdown-icons right">
+                  <svg xmlns="https://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 30" x="0px" y="0px"><path d="M11.95,17.28h0a.75.75,0,0,1-.53-.22l-8.95-9A.75.75,0,1,1,3.53,7L12,15.46l8.52-8.52A.75.75,0,0,1,21.53,8l-9.05,9.05A.75.75,0,0,1,11.95,17.28Z"></path></svg>
+                </span></div>
+                  
+    <section id="acc7" class="acc-content">
+      <div class="inner">
+      <p>Yes, all Pixpa websites are responsive and mobile-friendly, making your website pages and galleries look great on all devices (desktops, tablets, and phones).</p>
+      </div>
+    </section>
+  </div>
+  
+  <div class="item">
+    <div ref="#acc8" class="acc-heading"><span class="acc-title">How do I rank my website on search engines?</span><span class="dropdown-icons right">
+                  <svg xmlns="https://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 30" x="0px" y="0px"><path d="M11.95,17.28h0a.75.75,0,0,1-.53-.22l-8.95-9A.75.75,0,1,1,3.53,7L12,15.46l8.52-8.52A.75.75,0,0,1,21.53,8l-9.05,9.05A.75.75,0,0,1,11.95,17.28Z"></path></svg>
+                </span></div>
+                  
+    <section id="acc8" class="acc-content">
+      <div class="inner">
+      <p>Pixpa offers a host of built-in SEO tools that make it easy for you to manage the SEO metadata for all parts of your website. You can optimize your website by adding relevant metadata (Title and Description) for search engines to index and rank it easily, on your own. <a href="https://help.pixpa.com/article-category/seo/" target="_blank" rel="noopener">Learn more about SEO.</a></p>
+      </div>
+    </section>
+  </div>
+  
+  <div class="item">
+    <div ref="#acc9" class="acc-heading"><span class="acc-title">Do you offer a website setup service?</span><span class="dropdown-icons right">
+                  <svg xmlns="https://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 30" x="0px" y="0px"><path d="M11.95,17.28h0a.75.75,0,0,1-.53-.22l-8.95-9A.75.75,0,1,1,3.53,7L12,15.46l8.52-8.52A.75.75,0,0,1,21.53,8l-9.05,9.05A.75.75,0,0,1,11.95,17.28Z"></path></svg>
+                </span></div>
+                  
+    <section id="acc9" class="acc-content">
+      <div class="inner">
+      <p>Yes! You can skip all the hard work of building your website from scratch. Get a Pixpa Expert to set up your website for free and get a foundation on which you can easily continue to build your website.</p>
+	  <p>Pixpaâ€™s Website Setup Service is a one-time, free service available with new Expert or Business annual subscriptions. <a href="https://help.pixpa.com/kb/website-setup-service/" target="_blank" rel="noopener">Learn more.</a></p>
+      </div>
+    </section>
+  </div>
+  
+  <div class="item">
+    <div ref="#acc10" class="acc-heading"><span class="acc-title">Where is my website hosted?</span><span class="dropdown-icons right">
+                  <svg xmlns="https://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 30" x="0px" y="0px"><path d="M11.95,17.28h0a.75.75,0,0,1-.53-.22l-8.95-9A.75.75,0,1,1,3.53,7L12,15.46l8.52-8.52A.75.75,0,0,1,21.53,8l-9.05,9.05A.75.75,0,0,1,11.95,17.28Z"></path></svg>
+                </span></div>
+                  
+    <section id="acc10" class="acc-content">
+      <div class="inner">
+      <p>Your Pixpa website is hosted on our fully-managed cloud hosting. Our secure and fast cloud infrastructure ensures that your website is always available and delivered at a blazing fast speed around the world.. Pixpa websites leverage the best cloud infrastructure platforms in the world such as Amazon AWS.</p>
+      </div>
+    </section>
+  </div>
+  
+  <div class="item">
+    <div ref="#acc11" class="acc-heading"><span class="acc-title">Have more questions?</span><span class="dropdown-icons right">
+                  <svg xmlns="https://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 30" x="0px" y="0px"><path d="M11.95,17.28h0a.75.75,0,0,1-.53-.22l-8.95-9A.75.75,0,1,1,3.53,7L12,15.46l8.52-8.52A.75.75,0,0,1,21.53,8l-9.05,9.05A.75.75,0,0,1,11.95,17.28Z"></path></svg>
+                </span></div>
+                  
+    <section id="acc11" class="acc-content">
+      <div class="inner">
+      <p>Weâ€™re here to help you 24/7. Pixpa Website Experts are always available on live chat to assist you anytime. You can also email us at support@pixpa.com.</p>
+	  <p>You can also visit our <a href="https://help.pixpa.com/" target="_blank" rel="noopener">Help Centre</a> for guides and help articles on Pixpa.</p>
+	  <p>Ready to give Pixpa a try? <a href="https://studio.pixpa.com/signup">Sign up for the free 15-days trial.</a></p>
+      </div>
+    </section>
+  </div>
+
+</div>
+</body>
+<script>
+		let accTitle = document.getElementsByClassName("acc-heading");
+		let accContent = document.getElementsByClassName("acc-content");
+		let singleMode = true;
+		
+		for( let j=0; j<accContent.length; j++ ){
+			let realHeight = accContent[j].offsetHeight;
+			accContent[j].setAttribute("data-height", realHeight + "px");
+			accContent[j].style.height = 0;
+		}
+		
+		for( let i=0; i<accTitle.length; i++ ){
+			accTitle[i].onclick = function(){
+				let openedAcc = this.getAttribute('ref').replace('#', '');
+
+				if( this.classList.contains("active") ){
+					this.classList.remove("active");
+					document.getElementById(openedAcc).style.height = 0;
+					
+					return false;
+				}
+				
+				if( singleMode ){						
+					for(let k=0; k<accTitle.length; k++) {
+						accTitle[k].classList.remove("active");
+					}
+
+					for(let j=0; j<accContent.length; j++) {
+						accContent[j].style.height = 0;
+					}
+				}
+				
+				this.classList.add("active");
+				
+				document.getElementById(openedAcc).style.height = accContent[i].getAttribute("data-height");
+				
+				return false;
+			}
+		}
+</script>   
+</html>
